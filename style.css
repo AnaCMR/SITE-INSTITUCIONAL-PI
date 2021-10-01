@@ -1,0 +1,93 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2','Segoe UI', Tahoma, Geneva;
+    background-color: #000;
+}
+
+/* header */
+
+.header{
+    border-bottom: 3px solid #32B9CD;
+    color: #32B9CD;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e3b062;
+}
+
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: 800;
+}
+
+/* Banner */
+
+.banner{
+height: 500px;
+color: #fff;
+background-image: url("imgs/bg-jelly-fish-para-home.png");
+background-size: cover;
+}
+
+.banner .container {
+    height: 100%;
+    align-items: center;
+}
+
+.banner p{
+    width: 10px;
+    padding: 0;
+    font-size: 36px;
+    margin-left: 350px;
+}
+
+.banner span {
+    font-weight: 800;
+}
+
+/* Social */
+
+.social{
+    background-color: #E5E5E5;
+    padding: 50px 0;
+}
+
+.social .container {
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.social .titulo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.social h2{
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: #E6005A;
+    margin: 0;
+}
