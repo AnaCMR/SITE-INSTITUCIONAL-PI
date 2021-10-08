@@ -91,3 +91,44 @@ background-size: cover;
     color: #E6005A;
     margin: 0;
 }
+
+.social .boxes{
+    display: flex;
+}
+
+.social .box{
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 33%;
+}
+
+.social .box img {
+    width: 150px;
+    align-self: center;
+}
+
+.social .box h4 {
+    color: #E6005A;
+    margin-top: 30px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #32b9cd;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+}
